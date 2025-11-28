@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "type": "mcq",
+        "question": "What is the moral of 'Vulpes et Uva'?",
+        "choices": [
+            "Desire makes people cruel",
+            "People belittle what they cannot reach",
+            "Honesty is best"
+        ],
+        "answer": 1
+    },
+    {
+        "id": 2,
+        "type": "order",
+        "question": "Put these story beats in order for Vulpes et Uva",
+        "items": [
+            "Fox tries to reach grapes",
+            "Fox says grapes are sour",
+            "Fox sees grapes in a vineyard"
+        ],
+        "answer": [
+            2,
+            0,
+            1
+        ]
+    },
+    {
+        "id": 3,
+        "type": "vocab",
+        "question": "What does 'uva' mean?",
+        "choices": [
+            "apple",
+            "grape",
+            "river"
+        ],
+        "answer": 1
+    }
+]

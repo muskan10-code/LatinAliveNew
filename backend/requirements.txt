@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+spacy
+sentence-transformers
+scikit-learn
+pandas
+numpy
+diffusers
+transformers
+torch
+pillow

@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --bg: #FAF8F2;
+    --primary: #B44A35;
+    --secondary: #355C7D;
+    --accent: #EAC97C;
+    --text: #2C2C2C;
+}
+
+.analyzer-box {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--secondary)
+}
+
+.analyzer-input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-bottom: 12px
+}
+
+.comic-panel {
+    background: white;
+    border-radius: 16px;
+    border: 2px solid var(--secondary);
+    padding: 14px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
+}
+
+.comic-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px
+}
+
+.vocab-card {
+    background: white;
+    border-radius: 10px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    border-left: 5px solid var(--primary);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06)
+}
+
+.button {
+    padding: 10px 18px;
+    background: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600
+}
