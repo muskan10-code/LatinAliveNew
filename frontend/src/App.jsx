@@ -12,9 +12,10 @@ import FableAnalyzer from "./components/FableAnaylzer";
 import ComicRewriter from "./components/ComicRewriter";
 import Week3ComicBuilder from "./components/Week3ComicBuilder";
 import Week3Quiz from "./components/Week3Quiz";
+import Week4Project from "./components/Week4Project";
 
 
-// Week 1 data
+
 import { fabulaRomana } from './data/week1Comic';
 import { week1Vocabulary } from './data/week1Vocabulary';
 
@@ -66,7 +67,10 @@ function App() {
                             key={week.id}
                             onClick={() => {
                                 setActiveWeek(week.id);
-                                setActiveTab("comic");
+                                if (week.id === "week1") setActiveTab("comic");
+                                else if (week.id === "week2") setActiveTab("sentencePuzzle");
+                                else if (week.id === "week3") setActiveTab("fable");
+                                else if (week.id === "week4") setActiveTab(null);
                             }}
                             className={`px-4 py-2 rounded-lg font-semibold transition ${activeWeek === week.id
                                 ? "bg-blue-600 text-white"
@@ -146,10 +150,18 @@ function App() {
                 )}
 
                 {activeWeek === "week4" && (
-                    <div className="text-center text-gray-700 text-xl py-20">
-                        Week 4 content coming soon…
-                    </div>
+                    <>
+                        <div className="text-center text-gray-700 text-xl py-6">
+                            <h2 className="text-2xl font-bold mb-4">🧩 Week 4: Build Your Latin Project</h2>
+                            <p className="text-gray-600 mb-6">
+                                Create dialogues, explore vocabulary, and submit your final portfolio
+                            </p>
+                        </div>
+
+                        <Week4Project />
+                    </>
                 )}
+
 
             </main>
 
