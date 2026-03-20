@@ -1,4 +1,3 @@
-# backend/app/utils/load_models.py
 import os
 from sentence_transformers import SentenceTransformer
 import logging

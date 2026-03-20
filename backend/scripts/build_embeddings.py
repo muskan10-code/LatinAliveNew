@@ -1,4 +1,3 @@
-# backend/scripts/build_embeddings.py
 """
 Create embeddings for each Latin word in app/data/latin_words.csv
 Saves them to app/ai/vector_store/latin_embeddings.pkl

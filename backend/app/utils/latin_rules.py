@@ -1,4 +1,3 @@
-# backend/app/utils/latin_rules.py
 """
 Simple Latin morphological heuristics used when analyzer_engine can't infer features.
 These are intentionally conservative: they produce candidate labels rather than definitive parsing.
